@@ -5,7 +5,7 @@ All notable changes to "Chilean Undersecretaries Data Set" will be documented in
 
 ## [1.0.0] - TBC
 ### Added
-- GitHub page powered by Jekyll.
+- GitHub page powered by Jekyll (TBC).
 - Zenodo DOI.
 ### Changed
 - Minor corrections.

@@ -1,2 +1,4 @@
 # chilean-undersecretaries
-Chilean Undersecretaries
+**Chilean Undersecretaries**
+
+[![Version](https://img.shields.io/badge/version-v0.1.0-blue.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/blob/master/CHANGELOG.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://img.shields.io/badge/DOI-TBC-blue)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/blob/master/CHANGELOG.md) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/blob/master/LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/) [![Latex](https://img.shields.io/badge/made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)

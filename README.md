@@ -13,6 +13,20 @@ This repository contains a data set on Chilean undersecretaries between 1990 and
 
 This data is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier (DOI) is provided by Zenodo. The structure of the repository is detailed below.
 
+*chilean-undersecretaries* \
+|-- CHANGELOG.md \
+|-- chilean-undersecretaries.Rproj \
+|-- CITATION.cff \
+|-- code \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_1_data_cleaning.R \
+|-- data \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- chl_undersecretaries.csv \
+|-- .gitignore \
+|-- LICENSE.md
+|-- README.md
+
+XX directories and XX files.
+
 In addition, this README file in Markdown (MD) format provides specific information to ensure the reusability of the data.
 
 ## Store and Backup

@@ -22,7 +22,7 @@ This data is stored with version control on a GitHub repository. Furthermore, a 
 |-- data \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- chl_undersecretaries.csv \
 |-- .gitignore \
-|-- LICENSE.md
+|-- LICENSE.md \
 |-- README.md
 
 XX directories and XX files.

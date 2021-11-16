@@ -54,6 +54,6 @@ Alejandro Olivares \
 alejandro.olivares@uct.cl \
 https://orcid.org/0000-0001-6934-2437 
 
-### Latest revision
+### Latest Revision
 
 [November 16, 2021](CHANGELOG.md).

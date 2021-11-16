@@ -61,13 +61,13 @@ https://orcid.org/0000-0001-6934-2437
 ## CRediT - Contributor Roles Taxonomy
 
 Bastián González-Bustamante \
-<img src="credit/conceptualization.png" align="left" width="50" /><img src="credit/data_curation.png" align="left" width="50" /><img src="credit/project_administration.png" align="left" width="50" /><img src="credit/resources.png" align="left" width="50" /><img src="credit/computation.png" align="left" width="50" /><img src="credit/testing.png" align="left" width="50" /> <br /><br />
+<img src="credit_badges/conceptualization.png" align="left" width="50" /><img src="credit_badges/data_curation.png" align="left" width="50" /><img src="credit_badges/project_administration.png" align="left" width="50" /><img src="credit_badges/resources.png" align="left" width="50" /><img src="credit_badges/computation.png" align="left" width="50" /><img src="credit_badges/testing.png" align="left" width="50" /> <br /><br />
 
 Alejandro Olivares \
-<img src="credit/conceptualization.png" align="left" width="50" /><img src="credit/investigation.png" align="left" width="50" /><img src="credit/project_administration.png" align="left" width="50" /><img src="credit/resources.png" align="left" width="50" /><img src="credit/supervision.png" align="left" width="50" /> <br /><br />
+<img src="credit_badges/conceptualization.png" align="left" width="50" /><img src="credit_badges/investigation.png" align="left" width="50" /><img src="credit_badges/project_administration.png" align="left" width="50" /><img src="credit_badges/resources.png" align="left" width="50" /><img src="credit_badges/supervision.png" align="left" width="50" /> <br /><br />
 
 Carla Cisternas \
-<img src="credit/investigation.png" align="left" width="50" /> <br /><br />
+<img src="credit_badges/investigation.png" align="left" width="50" /> <br /><br />
 
 ### Latest Revision
 

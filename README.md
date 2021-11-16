@@ -1,7 +1,7 @@
 # chilean-undersecretaries
 **Data Set on Chilean Undersecretaries (1990-2014)**
 
-[![Version](https://img.shields.io/badge/version-v1.2.0-blue.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/blob/master/CHANGELOG.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://img.shields.io/badge/DOI-TBC-blue)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/blob/master/CHANGELOG.md) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/blob/master/LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/) [![Latex](https://img.shields.io/badge/made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
+[![Project Status: WIP – Initial development is in progress, but there has not yet been a stable, usable release suitable for the public.](https://www.repostatus.org/badges/latest/wip.svg)](https://www.repostatus.org/#wip) [![Version](https://img.shields.io/badge/version-v1.2.0-blue.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/blob/master/CHANGELOG.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://img.shields.io/badge/DOI-TBC-blue)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/blob/master/CHANGELOG.md) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/blob/master/LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/) [![Latex](https://img.shields.io/badge/made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
 
 ## Overview
 
@@ -47,7 +47,7 @@ This data is released under a [Creative Commons Attribution 4.0 International li
 
 González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Undersecretaries (1990-2014) (Version 2.0.0 – “Fragrant Disk”) [Data set]. https://doi.org/TBC
 
-## Authors and Acknowledgements
+## Authors
 
 Bastián González-Bustamante \
 bastian.gonzalezbustamante@politics.ox.ac.uk \
@@ -57,6 +57,17 @@ https://bgonzalezbustamante.com
 Alejandro Olivares \
 alejandro.olivares@uct.cl \
 https://orcid.org/0000-0001-6934-2437 
+
+## CRediT - Contributor Roles Taxonomy
+
+Bastián González-Bustamante \
+<img src="credit/conceptualization.png" align="left" width="50" /><img src="credit/data_curation.png" align="left" width="50" /><img src="credit/project_administration.png" align="left" width="50" /><img src="credit/resources.png" align="left" width="50" /><img src="credit/computation.png" align="left" width="50" /><img src="credit/testing.png" align="left" width="50" /> <br /><br />
+
+Alejandro Olivares \
+<img src="credit/conceptualization.png" align="left" width="50" /><img src="credit/investigation.png" align="left" width="50" /><img src="credit/project_administration.png" align="left" width="50" /><img src="credit/resources.png" align="left" width="50" /><img src="credit/supervision.png" align="left" width="50" /> <br /><br />
+
+Carla Cisternas \
+<img src="credit/investigation.png" align="left" width="50" /> <br /><br />
 
 ### Latest Revision
 

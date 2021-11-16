@@ -61,13 +61,24 @@ https://orcid.org/0000-0001-6934-2437
 ## CRediT - Contributor Roles Taxonomy
 
 Bastián González-Bustamante \
-<img src="credit_badges/conceptualization.png" align="left" width="55" /><img src="credit_badges/data_curation.png" align="left" width="55" /><img src="credit_badges/methodology.png" align="left" width="55" /><img src="credit_badges/project_administration.png" align="left" width="55" /><img src="credit_badges/resources.png" align="left" width="55" /><img src="credit_badges/computation.png" align="left" width="55" /><img src="credit_badges/testing.png" align="left" width="55" /> <br /><br />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/conceptualization.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/data_curation.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/methodology.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/project_administration.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/resources.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/computation.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/testing.png" align="left" width="55" /> <br /><br />
 
 Alejandro Olivares \
-<img src="https://bgonzalezbustamante.com/credit/conceptualization.png" align="left" width="55" /><img src="credit_badges/investigation.png" align="left" width="55" /><img src="credit_badges/methodology.png" align="left" width="55" /><img src="credit_badges/project_administration.png" align="left" width="55" /><img src="credit_badges/resources.png" align="left" width="55" /><img src="credit_badges/supervision.png" align="left" width="55" /> <br /><br />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/conceptualization.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/investigation.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/methodology.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/project_administration.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/resources.png" align="left" width="55" />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/supervision.png" align="left" width="55" /> <br /><br />
 
 Carla Cisternas \
-<img src="credit_badges/investigation.png" align="left" width="55" /> <br /><br />
+<img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/investigation.png" align="left" width="55" /> <br /><br />
 
 ### Latest Revision
 

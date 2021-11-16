@@ -1,5 +1,5 @@
 # Changelog
-All notable changes to "Chilean Undersecretaries Data Set" will be documented in this file.
+All notable changes to "Data Set on Chilean Undersecretaries (1990-2014)" will be documented in this file.
 
 ## [Unreleased]
 
@@ -7,6 +7,7 @@ All notable changes to "Chilean Undersecretaries Data Set" will be documented in
 ### Added
 - Cleaning script (TBC).
 - Data set in CSV UTF-8 format.
+- Codebook in MD format on GitHub repository.
 - Zenodo DOI.
 ### Changed
 - Minor corrections.
@@ -18,6 +19,7 @@ All notable changes to "Chilean Undersecretaries Data Set" will be documented in
 ## [1.2.0] - 2021-11-16
 ### Changed
 - Revision of upgrade versioning.
+- README file.
 
 ## [1.1.0] - 2021-11-15
 ### Added

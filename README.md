@@ -74,7 +74,7 @@ alejandro.olivares@uct.cl \
 
 ## CRediT - Contributor Roles Taxonomy
 
-Bastián González-Bustamante [ORCID iD 0000-0003-1510-6820](https://orcid.org/0000-0003-1510-6820) \
+Bastián González-Bustamante ([ORCID iD 0000-0003-1510-6820](https://orcid.org/0000-0003-1510-6820)) \
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/conceptualization.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/data_curation.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/formal_analysis.png" align="left" width="55" />
@@ -85,7 +85,7 @@ Bastián González-Bustamante [ORCID iD 0000-0003-1510-6820](https://orcid.org/0
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/testing.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/data_visualization.png" align="left" width="55" /> <br /><br />
 
-Alejandro Olivares [ORCID iD 0000-0001-6934-2437](https://orcid.org/0000-0001-6934-2437) \
+Alejandro Olivares ([ORCID iD 0000-0001-6934-2437](https://orcid.org/0000-0001-6934-2437)) \
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/conceptualization.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/investigation.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/methodology.png" align="left" width="55" />

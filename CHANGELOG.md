@@ -23,6 +23,7 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2014)" will b
 ## [1.2.0] - 2021-11-16
 ### Added
 - Repository status badge.
+- Citation CFF file.
 ### Changed
 - Revision of upgrade versioning.
 - Minor corrections.

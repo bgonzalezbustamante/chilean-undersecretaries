@@ -15,7 +15,7 @@ This repository contains a data set on Chilean undersecretaries between 1990 and
 
 ## Metadata and Preservation
 
-This data is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier (DOI: TBC) is provided by Zenodo. The structure of the repository is detailed below.
+This data is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier is provided by Zenodo. The structure of the repository is detailed below.
 
 *chilean-undersecretaries* \
 |-- CHANGELOG.md \

@@ -9,4 +9,4 @@
 - **Unsupported** – The project has reached a stable, usable state but the author(s) have ceased all work on it. A new maintainer may be desired.
 - **Moved** - The project has been moved to a new location, and the version at that location should be considered authoritative. This status should be accompanied by a new URL.
 
- *Source: [Repostatus.org](https://www.repostatus.org/)*
+ *Source: [Repostatus.org](https://www.repostatus.org/).*

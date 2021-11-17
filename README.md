@@ -41,7 +41,7 @@ Moreover, the repository is backed up on Hierarchical File Server (HFS) for reco
 
 ## Codebook
 
-WIP.
+WIP
 
 ## License
 

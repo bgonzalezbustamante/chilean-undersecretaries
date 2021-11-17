@@ -35,7 +35,7 @@ In addition, this README file in Markdown (MD) format provides specific informat
 
 ## Store and Backup
 
-The GitHub repository has controlled access with Two-Factor Authentication (2FA) with one physical USB security device and a mobile application. Both issue one-time passwords to generate a cryptographic authentication FIDO 2 and U2F.
+The GitHub repository has controlled access with Two-Factor Authentication (2FA) with two physical USB security device (Bastián González-Bustamante, ORCID iD 0000-0003-1510-6820) and a mobile application (Alejandro Olivares, ORCID iD 0000-0001-6934-2437). USB devices and mobile application issue one-time passwords to generate a cryptographic authentication FIDO 2 and U2F.
 
 Moreover, the repository is backed up on Hierarchical File Server (HFS) for recovery in case of incidents. This backup is located on the University of Oxford hub connected to Code42 Cloud Backup encrypted with 256-bit AES. The backup is performed with every release on GitHub and receives weekly light maintenance and a deep one every month. This backup will be secured until May 2024. An extension of this period will be evaluated on budget availability.
 
@@ -74,7 +74,7 @@ https://orcid.org/0000-0001-6934-2437
 
 ## CRediT - Contributor Roles Taxonomy
 
-Bastián González-Bustamante \
+Bastián González-Bustamante (ORCID iD 0000-0003-1510-6820) \
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/conceptualization.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/data_curation.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/formal_analysis.png" align="left" width="55" />
@@ -85,7 +85,7 @@ Bastián González-Bustamante \
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/testing.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/data_visualization.png" align="left" width="55" /> <br /><br />
 
-Alejandro Olivares \
+Alejandro Olivares (ORCID iD 0000-0001-6934-2437) \
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/conceptualization.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/investigation.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/methodology.png" align="left" width="55" />
@@ -93,7 +93,7 @@ Alejandro Olivares \
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/resources.png" align="left" width="55" />
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/supervision.png" align="left" width="55" /> <br /><br />
 
-Carla Cisternas \
+Carla Cisternas (ORCID iD 0000-0001-7948-6194) \
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/investigation.png" align="left" width="55" /> <br /><br />
 
 *Source: Compiled using badges from [Center for Open Science](https://github.com/CenterForOpenScience/open_research_badges) and core definitions from [CASRAI](https://casrai.org/credit/).*

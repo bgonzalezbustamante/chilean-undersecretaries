@@ -9,7 +9,7 @@ authors:
   orcid: "https://orcid.org/0000-0001-6934-2437"
 title: "Data Set on Chilean Undersecretaries (1990-2014)"
 version: "1.2.0"
-doi: TBC
+doi: 
 date-released: 2021-11-16
 url: "https://github.com/bgonzalezbustamante/chilean-undersecretaries"
 type: data

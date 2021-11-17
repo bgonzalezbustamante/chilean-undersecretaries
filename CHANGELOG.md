@@ -16,12 +16,16 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2014)" will b
 
 ## [Released]
 
+## [1.2.1] - 2021-11-17
+### Changed
+- Minor corrections.
+
 ## [1.2.0] - 2021-11-16
 ### Added
 - Repository status badge.
 ### Changed
 - Revision of upgrade versioning.
-- README file.
+- Minor corrections.
 
 ## [1.1.0] - 2021-11-15
 ### Added

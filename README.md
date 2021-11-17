@@ -80,6 +80,8 @@ Alejandro Olivares \
 Carla Cisternas \
 <img src="https://github.com/bgonzalezbustamante/open_research_badges/blob/master/img/badges/investigation.png" align="left" width="55" /> <br /><br />
 
+*Source: Compiled using badges from [Center for Open Science](https://github.com/CenterForOpenScience/open_research_badges) and core definitions from [CASRAI](https://casrai.org/credit/).*
+
 ### Latest Revision
 
-[November 16, 2021](CHANGELOG.md).
+[November 17, 2021](CHANGELOG.md).

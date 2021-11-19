@@ -1,0 +1,50 @@
+---
+title: "Potential Inconsistencies"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Data
+
+```{r data, warning = FALSE, message = FALSE}
+data_CHL <- read.csv("../data/chl_undersecretaries.csv", encoding = "UTF-8")
+```
+
+## ID and Name
+
+```{r rev1, warning = FALSE, message = FALSE}
+data_CHL$name[which(data_CHL$id == 1)]
+data_CHL$name[which(data_CHL$id == 100)]
+data_CHL$name[which(data_CHL$id == 171)]
+data_CHL$name[which(data_CHL$id == 234)]
+```
+
+## President in Office
+
+```{r rev2, warning = FALSE, message = FALSE}
+data_CHL$president[which(data_CHL$id == 1)]
+data_CHL$president[which(data_CHL$id == 100)]
+data_CHL$president[which(data_CHL$id == 171)]
+data_CHL$president[which(data_CHL$id == 234)]
+```
+
+## Portfolio Name
+
+```{r rev3, warning = FALSE, message = FALSE}
+data_CHL$undersec[which(data_CHL$id == 1)]
+data_CHL$undersec[which(data_CHL$id == 100)]
+data_CHL$undersec[which(data_CHL$id == 171)]
+data_CHL$undersec[which(data_CHL$id == 234)]
+```
+
+## Potential Problems
+
+```{r rev4, warning = FALSE, message = FALSE}
+data_CHL$start_undersec[which(data_CHL$id == 1)]
+data_CHL$start_undersec[which(data_CHL$id == 100)]
+data_CHL$start_undersec[which(data_CHL$id == 171)]
+data_CHL$start_undersec[which(data_CHL$id == 234)]
+```

@@ -100,7 +100,7 @@ This data is released under a [Creative Commons Attribution 4.0 International li
 
 ## Citation
 
-González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Undersecretaries (1990-2014) (Version 1.3.1 -- Fragrant Disk) [Data set].
+González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Undersecretaries (1990-2014) (Version 1.3.1 -- Fragrant Disk) [Data set]. DOI: [10.5281/zenodo.5715384](https://doi.org/10.5281/zenodo.5715384)
 
 ## Authors
 

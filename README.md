@@ -60,7 +60,7 @@ We recommend that users run exploratory data analysis code from the root directo
 
 ### Replication Instructions
 
-The folder "code" contains the exploratory data analysis in RMD and MD formats ([**eda_undersecretaries.md**](code/eda_undersecretaries.md)). On the other hand, "output" includes all tables provided as HTML files.
+The folder "code" contains the exploratory data analysis in RMD and MD formats ([**eda_undersecretaries.md**](code/eda_undersecretaries.md)).
 
 The files will be overwritten if you run the R script conteined in "eda_undersecretaries.Rmd".
 

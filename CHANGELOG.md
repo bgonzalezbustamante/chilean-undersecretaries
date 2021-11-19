@@ -5,16 +5,22 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2014)" will b
 
 ## [2.0.0] - TBC
 ### Added
-- Cleaning script (TBC).
 - Data set in CSV UTF-8 format.
-- Codebook in MD format on GitHub repository (TBC).
-- Zenodo DOI.
+- Exploratory data analysis code.
 ### Changed
 - Minor corrections.
+
+## [1.3.2] - TBC
+### Added
+- Zenodo DOI.
 ### Removed
 - Data set in DTA format.
 
 ## [Released]
+
+## [1.2.2] - 2021-11-19
+### Changed
+- Minor corrections.
 
 ## [1.2.1] - 2021-11-17
 ### Changed

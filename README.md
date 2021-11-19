@@ -76,6 +76,8 @@ WIP
 
 - **party**. Officeholder political party.[^1]
 
+A number of other variables can be calculated with aggregate data from different sources considering the appointment dates and departure of officeholders. In addition, data from González-Bustamante and Olivares (2016, 2018)[^2] can be used to compare and obtain some variables from cabinet members.
+
 ## License
 
 This data is released under a [Creative Commons Attribution 4.0 International license (CC BY 4.0)](LICENSE.md). This open-access license allows the data to be shared, reused, adapted as long as appropriate acknowledgement is given.
@@ -108,3 +110,4 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 [November 19, 2021](CHANGELOG.md).
 
 [^1]: The labels correspond to the following political parties: PDC (*Partido Demócrata Cristiano*), PH (*Partido Humanista*), PPD (*Partido por la Democracia*), PR (*Partido Radical*), PRSD (*Partido Radical Socialdemócrata*), PS (*Partido Socialista de Chile*), RN (*Renovación Nacional*), and UDI (*Unión Demócrata Independiente*). Finally, NP is for non-partisan undersecretaries, which could be recoded as a dummy variable.
+[^2]: González-Bustamante, B., & Olivares, A. (2018). La élite política gubernamental en Chile: Supervivencia de ministros. In A. Codato and F. Espinoza (eds.), *Las Élites en las Américas: Diferentes Perspectivas*. Curitiba: Editora Universidade Federal do Paraná. González-Bustamante, B., & Olivares, A. (2016). Cambios de gabinete y supervivencia de los ministros en Chile durante los gobiernos de la Concertación (1990-2010). *Colombia Internacional*, 87, 81-108. DOI: [10.7440/colombiaint87.2016.04](https://doi.org/10.7440/colombiaint87.2016.04)

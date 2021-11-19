@@ -51,7 +51,33 @@ WIP
 
 ### Codebook
 
-WIP
+- **id**. Unique ID for each undersecretary-portfolio observation.
+
+- **country**. Country name.
+
+- **name**. Officeholder name.
+
+- **sex**. Officeholder sex.
+
+- **president**. President in office.
+
+- **start_president**. Start date of presidential term.
+
+- **end_president**. End date of presidential term.
+
+- **ministry**. Ministry name.
+
+- **undersec**. Portfolio name.
+
+- **start_undersec**. Officeholder start date
+
+- **end_undersec**. Officeholder end date
+
+- **party**. Officeholder political party.
+
+- **non_party**. Dummy for non-partisan undersecretaries.
+
+- **minister_party**. Dummy for undersecretaries of the minister's party.
 
 ## License
 
@@ -82,4 +108,4 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 
 ### Latest Revision
 
-[November 17, 2021](CHANGELOG.md).
+[November 19, 2021](CHANGELOG.md).

@@ -74,9 +74,7 @@ WIP
 
 - **end_undersec**. Officeholder end date.
 
-- **party**. Officeholder political party.
-
-- **non_party**. Dummy for non-partisan undersecretaries.
+- **party**. Officeholder political party.[^1]
 
 ## License
 
@@ -108,3 +106,5 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 ### Latest Revision
 
 [November 19, 2021](CHANGELOG.md).
+
+[^1]: The labels correspond to the following political parties: PDC (*Partido Demócrata Cristiano*), PH (*Partido Humanista*), PPD (*Partido por la Democracia*), PR (*Partido Radical*), PRSD (*Partido Radical Socialdemócrata*), PS (*Partido Socialista de Chile*), RN (*Renovación Nacional*), and UDI (*Unión Demócrata Independiente*). Finally, NP is for non-partisan undersecretaries, which could be recoded as a dummy variable.

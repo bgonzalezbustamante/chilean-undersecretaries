@@ -18,19 +18,27 @@ This repository contains a data set on Chilean undersecretaries between 1990 and
 This data is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier is provided by Zenodo. The structure of the repository is detailed below.
 
 *chilean-undersecretaries* \
+|-- .gitignore \
 |-- CHANGELOG.md \
 |-- chilean-undersecretaries.Rproj \
 |-- CITATION.cff \
 |-- code \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- exploratory_analysis_code.R \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries_files \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- figure-gfm \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- plot1-1.png
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- plot2-1.png
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- plot3-1.png
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.md \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.Rmd \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- potential_inconsistencies.md \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- potential_inconsistencies.Rmd \
 |-- data \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- chl_undersecretaries.csv \
-|-- .gitignore \
 |-- LICENSE.md \
 |-- README.md \
 |-- STATUS.md
 
-XX directories and XX files.
+4 directories and 15 files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the reusability of the data.
 
@@ -44,11 +52,17 @@ Moreover, the repository is backed up on Hierarchical File Server (HFS) for reco
 
 ### Software
 
-WIP
+We use R version 4.1.0 (2021-05-18) -- "Camp Pontanezen".
+
+Required R libraries are: "DataExplorer" and "ggplot2".
+
+We recommend that users run exploratory data analysis code from the root directory using the R project "demo-regularisation.Rproj".
 
 ### Replication Instructions
 
-WIP
+The folder "code" contains the exploratory data analysis in RMD and MD formats ([**eda_undersecretaries.md**](code/eda_undersecretaries.md)). On the other hand, "output" includes all tables provided as HTML files.
+
+The files will be overwritten if you run the R script conteined in "eda_undersecretaries.Rmd".
 
 ### Codebook
 
@@ -84,7 +98,7 @@ This data is released under a [Creative Commons Attribution 4.0 International li
 
 ## Citation
 
-González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Undersecretaries (1990-2014) (Version 2.0.0 -- Fragrant Disk) [Data set].
+González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Undersecretaries (1990-2014) (Version 1.3.1 -- Fragrant Disk) [Data set].
 
 ## Authors
 
@@ -110,4 +124,4 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 [November 19, 2021](CHANGELOG.md).
 
 [^1]: The labels correspond to the following political parties: PDC (*Partido Demócrata Cristiano*), PH (*Partido Humanista*), PPD (*Partido por la Democracia*), PR (*Partido Radical*), PRSD (*Partido Radical Socialdemócrata*), PS (*Partido Socialista de Chile*), RN (*Renovación Nacional*), and UDI (*Unión Demócrata Independiente*). Finally, NP is for non-partisan undersecretaries, which could be recoded as a dummy variable.
-[^2]: González-Bustamante, B., & Olivares, A. (2018). La élite política gubernamental en Chile: Supervivencia de ministros. In A. Codato and F. Espinoza (eds.), *Las Élites en las Américas: Diferentes Perspectivas*. Curitiba: Editora Universidade Federal do Paraná. González-Bustamante, B., & Olivares, A. (2016). Cambios de gabinete y supervivencia de los ministros en Chile durante los gobiernos de la Concertación (1990-2010). *Colombia Internacional*, 87, 81-108. DOI: [10.7440/colombiaint87.2016.04](https://doi.org/10.7440/colombiaint87.2016.04)
+[^2]: González-Bustamante, B., & Olivares, A. (2018). La élite política gubernamental en Chile: Supervivencia de ministros. In A. Codato and F. Espinoza (eds.), *Las Élites en las Américas: Diferentes Perspectivas*. Curitiba: Editora Universidade Federal do Paraná. González-Bustamante, B., & Olivares, A. (2016). Cambios de gabinete y supervivencia de los ministros en Chile durante los gobiernos de la Concertación (1990-2010). *Colombia Internacional*, 87, 81-108. DOI: [10.7440/colombiaint87.2016.04](https://doi.org/10.7440/colombiaint87.2016.04).

@@ -22,12 +22,13 @@ This data is stored with version control on a GitHub repository. Furthermore, a 
 |-- chilean-undersecretaries.Rproj \
 |-- CITATION.cff \
 |-- code \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- stage_1_data_cleaning.R \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- exploratory_analysis_code.R \
 |-- data \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- chl_undersecretaries.csv \
 |-- .gitignore \
 |-- LICENSE.md \
-|-- README.md
+|-- README.md \
+|-- STATUS.md
 
 XX directories and XX files.
 

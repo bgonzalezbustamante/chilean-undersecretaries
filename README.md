@@ -66,6 +66,8 @@ The files will be overwritten if you run the R script conteined in "eda_undersec
 
 ### Codebook
 
+The file "chl_undersecretaries.csv" is the data set on Chilean undersecretaries between 1990 and 2014. This set contains 290 observations.
+
 - **id**. Unique ID for each undersecretary-portfolio observation.
 
 - **country**. Country name.

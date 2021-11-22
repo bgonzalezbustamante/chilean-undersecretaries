@@ -22,6 +22,9 @@ This data is stored with version control on a GitHub repository. Furthermore, a 
 |-- CHANGELOG.md \
 |-- chilean-undersecretaries.Rproj \
 |-- CITATION.cff \
+|-- LICENSE.md \
+|-- README.md \
+|-- STATUS.md \
 |-- code \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries_files \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- figure-gfm \
@@ -33,10 +36,7 @@ This data is stored with version control on a GitHub repository. Furthermore, a 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- potential_inconsistencies.md \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- potential_inconsistencies.Rmd \
 |-- data \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- chl_undersecretaries.csv \
-|-- LICENSE.md \
-|-- README.md \
-|-- STATUS.md
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- chl_undersecretaries.csv 
 
 4 directories and 15 files.
 

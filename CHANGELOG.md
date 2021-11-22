@@ -11,6 +11,10 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2014)" will b
 
 ## [Released]
 
+## [1.3.1] - 2021-11-22
+### Changed
+- Minor corrections.
+
 ## [1.3.1] - 2021-11-19
 ### Added
 - Data set in CSV UTF-8 format.

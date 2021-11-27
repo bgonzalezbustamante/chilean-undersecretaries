@@ -11,6 +11,10 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2014)" will b
 
 ## [Released]
 
+## [1.3.3] - 2021-11-27
+### Changed
+- Revision of upgrade versioning.
+
 ## [1.3.2] - 2021-11-22
 ### Changed
 - Minor corrections.
@@ -55,18 +59,29 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2014)" will b
 - Data set in DTA format.
 ### Removed
 - Data set in SAV format.
+- Raw data set.
 
-## [0.2.1] - 2016-01-24
-### Added
+## [0.2.3] - 2016-01-24
+### Changed
 - Data set in SAV format.
 - Data set in DTA format.
 ### Deprecated
 - Data set in SAV format.
+- Raw data set.
 
-## [0.1.1] - 2016-01-23
+## [0.2.2] - 2016-01-23
 ### Changed
 - Raw data set.
 
-## [0.1.0] - 2016-01-08
+## [0.2.1] - 2016-01-08
+### Changed
+- Raw data set.
+
+## [0.2.0] - 2015-05-26
+### Added
+- Data set in SAV format.
+- Data set in DTA format.
+
+## [0.1.0] - 2015-05-22
 ### Added
 - Raw data set.

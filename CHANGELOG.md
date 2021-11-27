@@ -14,6 +14,7 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2014)" will b
 ## [1.3.3] - 2021-11-27
 ### Changed
 - Revision of upgrade versioning.
+- Minor corrections.
 
 ## [1.3.2] - 2021-11-22
 ### Changed

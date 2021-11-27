@@ -56,7 +56,7 @@ We use R version 4.1.0 (2021-05-18) -- "Camp Pontanezen".
 
 Required R libraries are: "DataExplorer" and "ggplot2".
 
-We recommend that users run exploratory data analysis code from the root directory using the R project "demo-regularisation.Rproj".
+We recommend that users run exploratory data analysis code from the root directory using the R project "chilean-undersecretaries.Rproj".
 
 ### Replication Instructions
 

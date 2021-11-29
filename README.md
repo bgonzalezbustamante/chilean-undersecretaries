@@ -27,19 +27,22 @@ This data is stored with version control on a GitHub repository. Furthermore, a 
 |-- README.md \
 |-- STATUS.md \
 |-- code \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.md \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.Rmd \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- potential_inconsistencies_2.md \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- potential_inconsistencies_2.Rmd \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- deprecated \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- potential_inconsistencies_1.md \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- potential_inconsistencies_2.md \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries_files \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- figure-gfm \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- plot1-1.png \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- plot2-1.png \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- plot3-1.png \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.md \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.Rmd \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- potential_inconsistencies.md \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- potential_inconsistencies.Rmd \
 |-- data \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- chl_undersecretaries.csv 
 
-4 directories and 16 files.
+5 directories and 18 files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the reusability of the data.
 

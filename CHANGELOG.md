@@ -11,6 +11,10 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2014)" will b
 
 ## [Released]
 
+## [1.4.3] - 2021-11-29
+### Added
+- Code of conduct in MD format.
+
 ## [1.3.3] - 2021-11-27
 ### Changed
 - Revision of upgrade versioning.

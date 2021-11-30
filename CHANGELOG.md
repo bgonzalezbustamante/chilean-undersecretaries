@@ -8,13 +8,14 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2022)" will b
 - Extended period in CSV UTF-8 format.
 - Minor corrections.
 
-## [1.4.4] - TBC
-### Changed
-- Minor corrections.
-### Removed
-- Potential inconsistencies code.
-
 ## [Released]
+
+## [1.4.4] - 2021-11-30
+### Changed
+- Extended period in CSV UTF-8 format (WIP).
+- Minor corrections (WIP).
+### Removed
+- Potential inconsistencies code (WIP).
 
 ## [1.4.3] - 2021-11-29
 ### Added

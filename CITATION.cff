@@ -8,8 +8,8 @@ authors:
   given-names: "Alejandro"
   orcid: "https://orcid.org/0000-0001-6934-2437"
 title: "Data Set on Chilean Undersecretaries (1990-2022)"
-version: "1.4.3 -- Super Lake"
+version: "1.4.4 -- Yellow Bonus"
 doi: 10.5281/zenodo.5715384
-date-released: 2021-11-29
+date-released: 2021-11-30
 url: "https://github.com/bgonzalezbustamante/chilean-undersecretaries"
 type: data

@@ -1,7 +1,7 @@
 # chilean-undersecretaries
 **Data Set on Chilean Undersecretaries (1990-2022)**
 
-[![Version](https://img.shields.io/badge/version-v1.4.3-blue.svg)](CHANGELOG.md) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428418754.svg)](https://zenodo.org/badge/latestdoi/428418754) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
+[![Version](https://img.shields.io/badge/version-v1.4.4-blue.svg)](CHANGELOG.md) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428418754.svg)](https://zenodo.org/badge/latestdoi/428418754) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
 
 ## Overview
 
@@ -64,13 +64,13 @@ We recommend that users run exploratory data analysis code from the root directo
 
 ### Replication Instructions
 
-The folder "code" contains the exploratory data analysis in R, RMD and MD formats ([**eda_undersecretaries.md**](code/eda_undersecretaries.md)).
+Folder "code" contains the exploratory data analysis in R, RMD, and MD formats ([**eda_undersecretaries.md**](code/eda_undersecretaries.md)).
 
 The files will be overwritten if you run the R script contained in "eda_undersecretaries.Rmd".
 
 ### Codebook
 
-The file "**chl_undersecretaries.csv**" is the data set on Chilean undersecretaries between 1990 and 2022. This set contains 423 observations.
+The file "**chl_undersecretaries.csv**" in "data" folder is the data set on Chilean undersecretaries between 1990 and 2022. This set contains 423 observations.
 
 - **id**. Unique ID for each undersecretary-portfolio observation.
 
@@ -112,7 +112,7 @@ Please read our [code of conduct](CODE_OF_CONDUCT.md) first. Minor contributions
 
 ## Citation
 
-González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Undersecretaries (1990-2022) (Version 1.4.3 -- Super Lake) [Data set]. DOI: [10.5281/zenodo.5715384](https://doi.org/10.5281/zenodo.5715384)
+González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Undersecretaries (1990-2022) (Version 1.4.4 -- Yellow Bonus) [Data set]. DOI: [10.5281/zenodo.5715384](https://doi.org/10.5281/zenodo.5715384)
 
 ## Authors
 
@@ -135,7 +135,7 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 
 ### Latest Revision
 
-[November 29, 2021](CHANGELOG.md).
+[November 30, 2021](CHANGELOG.md).
 
 [^1]: A number of cases experienced a change of name of the ministry during their time at the office. For example, the case ID-261 experienced a change of name in October 2011. Considering the observations in this set correspond to undersecretary-portfolio observation, we could have generated a new observation when the ministry changed its name. Because of the scarcity of these cases, we have not generated new observations, however, the name of the ministry reflects this situation with a slash. On the other hand, the labels SEGEGOB, SEGPRES and SERNAM corresponds to the following ministries: *Secretaría General de Gobierno*, *Secretaría General de la Presidencia*, and *Servicio Nacional de la Mujer*.
 [^2]: The current presidential term ends in March 2022, therefore, there are a number of missing cases in this variable. An updated version will be released when the term ends, either by adding the exact date of exit of the case or applying administrative censure if applicable.

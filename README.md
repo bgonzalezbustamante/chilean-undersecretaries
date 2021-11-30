@@ -112,7 +112,7 @@ Please read our [code of conduct](CODE_OF_CONDUCT.md) first. Minor contributions
 
 ## Citation
 
-González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Undersecretaries (1990-2014) (Version 1.4.3 -- Super Lake) [Data set]. DOI: [10.5281/zenodo.5715384](https://doi.org/10.5281/zenodo.5715384)
+González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Undersecretaries (1990-2022) (Version 1.4.3 -- Super Lake) [Data set]. DOI: [10.5281/zenodo.5715384](https://doi.org/10.5281/zenodo.5715384)
 
 ## Authors
 

@@ -1,11 +1,11 @@
 # chilean-undersecretaries
-**Data Set on Chilean Undersecretaries (1990-2014)**
+**Data Set on Chilean Undersecretaries (1990-2022)**
 
 [![Version](https://img.shields.io/badge/version-v1.4.3-blue.svg)](CHANGELOG.md) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428418754.svg)](https://zenodo.org/badge/latestdoi/428418754) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
 
 ## Overview
 
-This repository contains a data set on Chilean undersecretaries between 1990 and 2014 in Comma-Separated Values (CSV) format with Unicode encoding (UTF-8). The data collection was carried out based on official sources such as archives of Congress and ministries, the National Library, and press archives. Part of this data has been used in the following articles:
+This repository contains a data set on Chilean undersecretaries between 1990 and 2022 in Comma-Separated Values (CSV) format with Unicode encoding (UTF-8). The data collection was carried out based on official sources such as archives of Congress and ministries, the National Library, and press archives. Part of this data has been used in the following articles:
 
 - González-Bustamante, B. (2020). The Politics‐Administration Dichotomy: A Case Study of the Chilean Executive during the Democratic Post‐Transition. *Bulletin of Latin American Research, 39*(5), 582-597. DOI: [10.1111/blar.13044](https://doi.org/10.1111/blar.13044)
 
@@ -70,7 +70,7 @@ The files will be overwritten if you run the R script contained in "eda_undersec
 
 ### Codebook
 
-The file "chl_undersecretaries.csv" is the data set on Chilean undersecretaries between 1990 and 2014. This set contains 290 observations.
+The file "**chl_undersecretaries.csv**" is the data set on Chilean undersecretaries between 1990 and 2022. This set contains 423 observations.
 
 - **id**. Unique ID for each undersecretary-portfolio observation.
 
@@ -92,11 +92,11 @@ The file "chl_undersecretaries.csv" is the data set on Chilean undersecretaries 
 
 - **start_undersec**. Officeholder start date.
 
-- **end_undersec**. Officeholder end date.
+- **end_undersec**. Officeholder end date.[^2]
 
-- **party**. Officeholder political party.[^2]
+- **party**. Officeholder political party.[^3]
 
-A number of other variables can be calculated with aggregate data from different sources considering the appointment dates and departure of officeholders. In addition, data from González-Bustamante and Olivares (2021)[^3] can be used to compare and obtain some variables from cabinet members.
+A number of other variables can be calculated with aggregate data from different sources considering the appointment dates and departure of officeholders. In addition, data from González-Bustamante and Olivares (2021)[^4] can be used to compare and obtain some variables from cabinet members.
 
 ## License
 
@@ -138,5 +138,6 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 [November 29, 2021](CHANGELOG.md).
 
 [^1]: A number of cases experienced a change of name of the ministry during their time at the office. For example, the case ID-261 experienced a change of name in October 2011. Considering the observations in this set correspond to undersecretary-portfolio observation, we could have generated a new observation when the ministry changed its name. Because of the scarcity of these cases, we have not generated new observations, however, the name of the ministry reflects this situation with a slash. On the other hand, the labels SEGEGOB, SEGPRES and SERNAM corresponds to the following ministries: *Secretaría General de Gobierno*, *Secretaría General de la Presidencia*, and *Servicio Nacional de la Mujer*.
-[^2]: The labels correspond to the following political parties: EVO (*Evolución Política*), IC (*Izquierda Cristiana*), MAS (*Movimiento Amplio Social*), PCCh (*Partido Comunista de Chile*), PDC (*Partido Demócrata Cristiano*), PH (*Partido Humanista*), PPD (*Partido por la Democracia*), PR (*Partido Radical*), PRI (*Partido Regionalista Independiente*), PRSD (*Partido Radical Socialdemócrata*), PS (*Partido Socialista de Chile*), RN (*Renovación Nacional*), and UDI (*Unión Demócrata Independiente*). Finally, NP is for non-partisan undersecretaries, which could be recoded as a dummy variable.
-[^3]: González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Ministers (1990-2014) (Version 2.2.0 -- Sparkling Surf) [Data set].
+[^2]: The current presidential term ends in March 2022, therefore, there are a number of missing cases in this variable. An updated version will be released when the term ends, either by adding the exact date of exit of the case or applying administrative censure if applicable.
+[^3]: The labels correspond to the following political parties: EVO (*Evolución Política*), IC (*Izquierda Cristiana*), MAS (*Movimiento Amplio Social*), PCCh (*Partido Comunista de Chile*), PDC (*Partido Demócrata Cristiano*), PH (*Partido Humanista*), PPD (*Partido por la Democracia*), PR (*Partido Radical*), PRI (*Partido Regionalista Independiente*), PRSD (*Partido Radical Socialdemócrata*), PS (*Partido Socialista de Chile*), RN (*Renovación Nacional*), and UDI (*Unión Demócrata Independiente*). Finally, NP is for non-partisan undersecretaries, which could be recoded as a dummy variable.
+[^4]: González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Ministers (1990-2014) (Version 2.2.0 -- Sparkling Surf) [Data set].

@@ -1,9 +1,14 @@
 # Changelog
-All notable changes to "Data Set on Chilean Undersecretaries (1990-2014)" will be documented in this file.
+All notable changes to "Data Set on Chilean Undersecretaries (1990-2022)" will be documented in this file.
 
 ## [Unreleased]
 
-## [2.0.0] - TBC
+## [2.0.0] - 2022-03-12
+### Changed
+- Extended period in CSV UTF-8 format.
+- Minor corrections.
+
+## [1.4.4] - TBC
 ### Changed
 - Minor corrections.
 ### Removed

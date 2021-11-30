@@ -12,10 +12,10 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2022)" will b
 
 ## [1.4.4] - 2021-11-30
 ### Changed
-- Extended period in CSV UTF-8 format (WIP).
-- Minor corrections (WIP).
+- Extended period in CSV UTF-8 format.
+- Minor corrections.
 ### Removed
-- Potential inconsistencies code (WIP).
+- Potential inconsistencies code.
 
 ## [1.4.3] - 2021-11-29
 ### Added

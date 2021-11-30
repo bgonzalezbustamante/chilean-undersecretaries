@@ -28,6 +28,7 @@ This data is stored with version control on a GitHub repository. Furthermore, a 
 |-- STATUS.md \
 |-- code \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.md \
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.R \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.Rmd \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries_files \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- figure-gfm \
@@ -37,7 +38,7 @@ This data is stored with version control on a GitHub repository. Furthermore, a 
 |-- data \
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- chl_undersecretaries.csv 
 
-4 directories and 14 files.
+4 directories and 15 files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the reusability of the data.
 

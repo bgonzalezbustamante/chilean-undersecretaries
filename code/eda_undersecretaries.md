@@ -36,7 +36,6 @@ plot_bar(selection_var1, ggtheme = theme_minimal(base_size = 12))
 ``` r
 data_CHL$time <- with(data_CHL, (as.Date(data_CHL$end_undersec) - as.Date(data_CHL$start_undersec)))
 data_CHL$time <- as.numeric(data_CHL$time)
-## selection_var2 <- drop_columns(data_CHL, c(1:12))
 plot_histogram(data_CHL$time, ggtheme = theme_minimal(base_size = 12))
 ```
 

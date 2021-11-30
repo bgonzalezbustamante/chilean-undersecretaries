@@ -60,13 +60,13 @@ We use R version 4.1.0 (2021-05-18) -- "Camp Pontanezen".
 
 Required R libraries are: "DataExplorer" and "ggplot2".
 
-We recommend that users run exploratory data analysis code from the root directory using the R project "chilean-undersecretaries.Rproj".
+We recommend that users run exploratory data analysis code from the root directory using the R project "**chilean-undersecretaries.Rproj**".
 
 ### Replication Instructions
 
 Folder "code" contains the exploratory data analysis in R, RMD, and MD formats ([**eda_undersecretaries.md**](code/eda_undersecretaries.md)).
 
-The files will be overwritten if you run the R script contained in "eda_undersecretaries.Rmd".
+The files will be overwritten if you run the R script contained in "**eda_undersecretaries.Rmd**".
 
 ### Codebook
 

@@ -1,7 +1,7 @@
 # chilean-undersecretaries
 **Data Set on Chilean Undersecretaries (1990-2022)**
 
-[![Version](https://img.shields.io/badge/version-v1.4.4-blue.svg)](CHANGELOG.md) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428418754.svg)](https://zenodo.org/badge/latestdoi/428418754) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
+[![Version](https://img.shields.io/badge/version-v1.4.5-blue.svg)](CHANGELOG.md) [![Project Status: Active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428418754.svg)](https://zenodo.org/badge/latestdoi/428418754) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
 
 ## Overview
 
@@ -17,32 +17,34 @@ This repository contains a data set on Chilean undersecretaries between 1990 and
 
 This data is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier is provided by Zenodo. The structure of the repository is detailed below.
 
-*chilean-undersecretaries* \
-|-- .gitignore \
-|-- CHANGELOG.md \
-|-- chilean-undersecretaries.Rproj \
-|-- CITATION.cff \
-|-- CODE_OF_CONDUCT.md \
-|-- LICENSE.md \
-|-- README.md \
-|-- STATUS.md \
-|-- code \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.md \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.R \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries.Rmd \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- eda_undersecretaries_files \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- figure-gfm \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- plot1-1.png \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- plot2-1.png \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- plot3-1.png \
-|-- data \
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|-- chl_undersecretaries.csv 
+``` r
+chilean-undersecretaries
+|-- .gitignore
+|-- CHANGELOG.md
+|-- chilean-undersecretaries.Rproj
+|-- CITATION.cff
+|-- CODE_OF_CONDUCT.md
+|-- LICENSE.md
+|-- README.md
+|-- STATUS.md
+|-- code
+    |-- eda_undersecretaries.md
+    |-- eda_undersecretaries.R
+    |-- eda_undersecretaries.Rmd
+    |-- eda_undersecretaries_files
+        |-- figure-gfm
+            |-- plot1-1.png
+            |-- plot2-1.png
+            |-- plot3-1.png
+|-- data
+    |-- chl_undersecretaries.csv
+```
 
-4 directories and 15 files.
+4 directories and 16 files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the reusability of the data.
 
-## Store and Backup
+## Storage and Backup
 
 The GitHub repository has controlled access with Two-Factor Authentication (2FA) with two physical USB security devices (Bastián González-Bustamante, [ORCID iD 0000-0003-1510-6820](https://orcid.org/0000-0003-1510-6820)), a mobile application (Alejandro Olivares, [ORCID iD 0000-0001-6934-2437](https://orcid.org/0000-0001-6934-2437)), and one physical USB seurity device (Carla Cisternas, [ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948-6194)). USB devices and the mobile application issue one-time passwords to generate a cryptographic authentication FIDO2 and U2F.
 
@@ -92,7 +94,7 @@ The file "**chl_undersecretaries.csv**" in "data" folder is the data set on Chil
 
 - **party**. Officeholder political party.[^3]
 
-A number of other variables can be calculated with aggregate data from different sources considering the appointment dates and departure of officeholders. In addition, data from González-Bustamante and Olivares (2021)[^4] can be used to compare and obtain some variables from cabinet members.
+A number of other variables can be calculated with aggregate data from different sources considering the appointment dates and departure of officeholders. In addition, data from González-Bustamante and Olivares (2022)[^4] can be used to compare and obtain some variables from cabinet members.
 
 ## License
 
@@ -108,7 +110,7 @@ Please read our [code of conduct](CODE_OF_CONDUCT.md) first. Minor contributions
 
 ## Citation
 
-González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Undersecretaries (1990-2022) (Version 1.4.4 -- Yellow Bonus) [Data set]. DOI: [10.5281/zenodo.5715384](https://doi.org/10.5281/zenodo.5715384)
+González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Undersecretaries (1990-2022) (Version 1.4.5 -- Dark Hat) [Data set]. DOI: [10.5281/zenodo.5715384](https://doi.org/10.5281/zenodo.5715384)
 
 ## Authors
 
@@ -131,9 +133,9 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 
 ### Latest Revision
 
-[November 30, 2021](CHANGELOG.md).
+[January 7, 2022](CHANGELOG.md).
 
 [^1]: A number of cases experienced a change of name of the ministry during their time at the office. For example, the case ID-261 experienced a change of name in October 2011. Considering that the observations in this set correspond to undersecretary-portfolio cases, we could have generated a new observation when that ministry changed its name. Because of the scarcity of these cases, we have not generated new observations, however, the ministries' names reflect this situation with a slash. On the other hand, the labels SEGEGOB, SEGPRES, and SERNAM correspond to the following ministries: *Secretaría General de Gobierno*, *Secretaría General de la Presidencia*, and *Servicio Nacional de la Mujer*.
 [^2]: The current presidential term ends in March 2022, therefore, there are a number of missing cases in this variable. An updated version will be released when the term ends, either by adding the exact date of exit of the case or coding administrative censure if applicable.
 [^3]: The labels correspond to the following political parties: EVO (*Evolución Política*), IC (*Izquierda Cristiana*), MAS (*Movimiento Amplio Social*), PCCh (*Partido Comunista de Chile*), PDC (*Partido Demócrata Cristiano*), PH (*Partido Humanista*), PPD (*Partido por la Democracia*), PR (*Partido Radical*), PRI (*Partido Regionalista Independiente*), PRSD (*Partido Radical Socialdemócrata*), PS (*Partido Socialista de Chile*), RN (*Renovación Nacional*), and UDI (*Unión Demócrata Independiente*). Finally, NP is for non-partisan undersecretaries, which could be recoded as a dummy variable.
-[^4]: González-Bustamante, B., & Olivares, A. (2021). Data Set on Chilean Ministers (1990-2014) (Version 2.3.0 -- Bold Fog) [Data set]. DOI: [10.5281/zenodo.5744536](https://doi.org/10.5281/zenodo.5744536).
+[^4]: González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Ministers (1990-2014) (Version 3.0.0 -- Sparkling Snow) [Data set]. DOI: [10.5281/zenodo.5744536](https://doi.org/10.5281/zenodo.5744536).

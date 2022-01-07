@@ -40,7 +40,7 @@ chilean-undersecretaries
     |-- chl_undersecretaries.csv
 ```
 
-4 directories and 16 files.
+4 directories and 15 files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the reusability of the data.
 

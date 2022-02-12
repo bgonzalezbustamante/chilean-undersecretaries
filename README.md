@@ -28,19 +28,23 @@ chilean-undersecretaries
 |-- README.md
 |-- STATUS.md
 |-- code
-    |-- eda_undersecretaries.md
     |-- eda_undersecretaries.R
+|-- data
+    |-- tidy
+        |-- chl_undersecretaries.csv
+|-- demo
+    |-- eda_undersecretaries.md
     |-- eda_undersecretaries.Rmd
     |-- eda_undersecretaries_files
         |-- figure-gfm
             |-- plot1-1.png
             |-- plot2-1.png
             |-- plot3-1.png
-|-- data
-    |-- chl_undersecretaries.csv
+|-- refs
+    |-- BIB-Undersecretaries.bib
 ```
 
-4 directories and 15 files.
+7 directories and 16 files.
 
 In addition, this README file in Markdown (MD) format provides specific information to ensure the reusability of the data.
 

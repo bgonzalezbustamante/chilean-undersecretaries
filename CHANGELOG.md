@@ -10,6 +10,14 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2022)" will b
 
 ## [Released]
 
+## [1.5.5] - 2022-02-12
+### Added
+- BibTeX file.
+- Import data code.
+### Changed
+- Scripts and folders names standardisation.
+- Minor corrections.
+
 ## [1.4.5] - 2022-01-07
 ### Changed
 - Minor corrections.

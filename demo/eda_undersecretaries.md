@@ -9,7 +9,7 @@ library(DataExplorer)
 library(ggplot2)
 
 ## Data
-data_CHL <- read.csv("../data/chl_undersecretaries.csv", encoding = "UTF-8")
+data_CHL <- read.csv("../data/tidy/chl_undersecretaries.csv", encoding = "UTF-8")
 ```
 
 ## Data Set Plot

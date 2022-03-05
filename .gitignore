@@ -37,3 +37,5 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+refs/BIB-Undersecretaries.bib.sav.tmp
+refs/BIB-Undersecretaries.bib.bak

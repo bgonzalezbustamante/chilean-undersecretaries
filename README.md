@@ -5,7 +5,7 @@
 
 ## Overview
 
-This repository contains a data set on Chilean undersecretaries between 1990 and 2022 in Comma-Separated Values (CSV) format with Unicode encoding (UTF-8). The data collection was carried out based on official sources such as archives of Congress and ministries, the National Library, and press archives. Part of this data has been used in the following articles:
+This repository contains a data set on Chilean undersecretaries between 1990 and 2022 in Comma-Separated Values (CSV) format with Unicode encoding (UTF-8). The data collection was carried out based on official sources such as archives of Congress and ministries, the National Library, and press archives. Part of this data set has been used in the following articles:
 
 - González-Bustamante, B. (2020). The Politics‐Administration Dichotomy: A Case Study of the Chilean Executive during the Democratic Post‐Transition. *Bulletin of Latin American Research, 39*(5), 582-597. DOI: [10.1111/blar.13044](https://doi.org/10.1111/blar.13044)
 
@@ -13,11 +13,11 @@ This repository contains a data set on Chilean undersecretaries between 1990 and
 
 - González-Bustamante, B., & Olivares, A. (2015). Rotación de subsecretarios en Chile: Una exploración de la segunda línea gubernamental, 1990-2014. *Revista de Gestión Pública, IV*(2), 151-190. DOI: [10.22370/rgp.2015.4.2.2230](https://doi.org/10.22370/rgp.2015.4.2.2230)
 
-Download the BibTeX file [here](refs/BIB-Undersecretaries.bib), which includes the biographical data of this repository.
+Download the BibTeX file [here](refs/BIB-Undersecretaries.bib), which includes the bibliographical data of this repository.
 
 ## Metadata and Preservation
 
-This data is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier is provided by Zenodo. The structure of the repository is detailed below.
+This data set is stored with version control on a GitHub repository. Furthermore, a Digital Object Identifier is provided by Zenodo. The structure of the repository is detailed below.
 
 ``` r
 chilean-undersecretaries
@@ -131,7 +131,7 @@ A number of other variables can be calculated with aggregate data from different
 
 ## License
 
-This data is released under a [Creative Commons Attribution 4.0 International license (CC BY 4.0)](LICENSE.md). This open-access license allows the data to be shared, reused, adapted as long as appropriate acknowledgement is given.
+This data set is released under a [Creative Commons Attribution 4.0 International license (CC BY 4.0)](LICENSE.md). This open-access license allows the data to be shared, reused, adapted as long as appropriate acknowledgement is given.
 
 ## Contribute
 

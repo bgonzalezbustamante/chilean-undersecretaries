@@ -42,11 +42,15 @@ chilean-undersecretaries
             |-- plot1-1.png
             |-- plot2-1.png
             |-- plot3-1.png
+|-- docs
+    |-- codebook_undersecretaries.pdf
+    |-- codebook_undersecretaries.synctex.gz
+    |-- codebook_undersecretaries.tex
 |-- refs
     |-- BIB-Undersecretaries.bib
 ```
 
-7 directories and 16 files.
+8 directories and 19 files.
 
 In addition, this `README` file in Markdown `MD` format provides specific information to ensure the reusability of the data.
 
@@ -101,7 +105,7 @@ The files will be overwritten if you run the R script contained in `eda_undersec
 
 ### Codebook
 
-The file `chl_undersecretaries.csv` in `data/tidy` subfolder is the data set on Chilean undersecretaries between 1990 and 2022. This set contains 424 observations.
+The file `chl_undersecretaries.csv` in `data/tidy` subfolder is the data set on Chilean undersecretaries between 1990 and 2022. This set contains 424 observations. The codebook is also available in [`PDF`](docs/codebook_undersecretaries.pdf).
 
 - `id`. Unique ID for each undersecretary-portfolio observation.
 
@@ -168,6 +172,6 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 
 [March 14, 2022](CHANGELOG.md).
 
-[^1]: A number of cases experienced a change of name of the ministry during their time at the office. For example, the case ID-261 experienced a change of name in October 2011. Considering that the observations in this set correspond to undersecretary-portfolio cases, we could have generated a new observation when that ministry changed its name. Because of the scarcity of these cases, we have not generated new observations, however, the ministries' names reflect this situation with a slash. On the other hand, the labels SEGEGOB, SEGPRES, and SERNAM correspond to the following ministries: *Secretaría General de Gobierno*, *Secretaría General de la Presidencia*, and *Servicio Nacional de la Mujer*.
-[^2]: The labels correspond to the following political parties: EVO (*Evolución Política*), IC (*Izquierda Cristiana*), MAS (*Movimiento Amplio Social*), PCCh (*Partido Comunista de Chile*), PDC (*Partido Demócrata Cristiano*), PH (*Partido Humanista*), PPD (*Partido por la Democracia*), PR (*Partido Radical*), PRI (*Partido Regionalista Independiente*), PRSD (*Partido Radical Socialdemócrata*), PS (*Partido Socialista de Chile*), RN (*Renovación Nacional*), and UDI (*Unión Demócrata Independiente*). Finally, NP is for non-partisan undersecretaries, which could be recoded as a dummy variable.
-[^3]: González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Ministers (1990-2014) (Version 3.2.1 -- Old Mode) [Data set]. DOI: [10.5281/zenodo.5744536](https://doi.org/10.5281/zenodo.5744536).
+[^1]: A number of cases experienced a change of name of the ministry during their time at the office. For example, the case `ID-261` experienced a change of name in October 2011. Considering that the observations in this set correspond to undersecretary-portfolio cases, we could have generated a new observation when that ministry changed its name. Because of the scarcity of these cases, we have not generated new observations, however, the ministries' names reflect this situation with a slash. On the other hand, the labels `SEGEGOB`, `SEGPRES`, and `SERNAM` correspond to the following ministries: *Secretaría General de Gobierno*, *Secretaría General de la Presidencia*, and *Servicio Nacional de la Mujer*.
+[^2]: The labels correspond to the following political parties: `EVO` (*Evolución Política*), `IC` (*Izquierda Cristiana*), `MAS` (*Movimiento Amplio Social*), `PCCh` (*Partido Comunista de Chile*), `PDC` (*Partido Demócrata Cristiano*), `PH` (*Partido Humanista*), PPD (*Partido por la Democracia*), `PR` (*Partido Radical*), PRI (*Partido Regionalista Independiente*), `PRSD` (*Partido Radical Socialdemócrata*), `PS` (*Partido Socialista de Chile*), `RN` (*Renovación Nacional*), and `UDI` (*Unión Demócrata Independiente*). Finally, `NP` is for non-partisan undersecretaries, which could be recoded as a dummy variable.
+[^3]: González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Ministers (1990-2014) (Version 3.2.2 -- Old Mode) [Data set]. DOI: [10.5281/zenodo.5744536](https://doi.org/10.5281/zenodo.5744536).

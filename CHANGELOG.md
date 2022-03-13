@@ -11,6 +11,7 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2022)" will b
 ## [1.6.7] - 2022-03-13
 ### Changed
 - Codebook in XeLaTeX.
+- Minor corrections.
 
 ## [1.6.6] - 2022-03-12
 ### Added

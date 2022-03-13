@@ -64,7 +64,7 @@ Moreover, the repository is backed up on Hierarchical File Server `HFS` for reco
 
 ### Software
 
-We used `R` version 4.1.0 (2021-05-18) -- "Camp Pontanezen" and the following packages: `DataExplorer` v0.8.2, `knitr` v1.37, `rmarkdown` v2.11, and `tidyverse` v1.3.1.
+We used `R v4.1.0 -- Camp Pontanezen` and the following packages: `DataExplorer v0.8.2`, `knitr v1.37`, `rmarkdown v2.11`, and `tidyverse v1.3.1`.
 
 We recommend that users import the data directly using the code below or, if they wish, run exploratory data analysis code from the root directory using the `R` project `chilean-undersecretaries.Rproj`.
 
@@ -105,7 +105,7 @@ The files will be overwritten if you run the R script contained in `eda_undersec
 
 ### Codebook
 
-The file `chl_undersecretaries.csv` in `data/tidy` subfolder is the data set on Chilean undersecretaries between 1990 and 2022. This set contains 424 observations. The codebook is also available in [`PDF`](docs/codebook_undersecretaries.pdf).
+The file `chl_undersecretaries.csv` in `data/tidy` subfolder is the data set on Chilean undersecretaries between 1990 and 2022. This set contains 424 observations.[^1] The codebook is also available in [`PDF`](docs/codebook_undersecretaries.pdf).
 
 - `id`. Unique ID for each undersecretary-portfolio observation.
 
@@ -121,7 +121,7 @@ The file `chl_undersecretaries.csv` in `data/tidy` subfolder is the data set on 
 
 - `end_president`. End date of presidential term in the format `YYYY-MM-DD`.
 
-- `ministry`. Ministry name.[^1]
+- `ministry`. Ministry name.[^2]
 
 - `undersec`. Portfolio name.
 
@@ -129,9 +129,9 @@ The file `chl_undersecretaries.csv` in `data/tidy` subfolder is the data set on 
 
 - `end_undersec`. Officeholder end date in the format `YYYY-MM-DD`.
 
-- `party`. Officeholder political party.[^2]
+- `party`. Officeholder political party.[^3]
 
-A number of other variables can be calculated with aggregate data from different sources considering the appointment dates and departure of officeholders. In addition, data from González-Bustamante and Olivares (2022)[^3] can be used to compare and obtain some variables from cabinet members.
+A number of other variables can be calculated with aggregate data from different sources considering the appointment dates and departure of officeholders. In addition, data from González-Bustamante and Olivares (2022)[^4] can be used to compare and obtain some variables from cabinet members.
 
 ## License
 
@@ -164,7 +164,7 @@ alejandro.olivares@uct.cl \
 
 Bastián González-Bustamante ([ORCID iD 0000-0003-1510-6820](https://orcid.org/0000-0003-1510-6820)): Conceptualisation, data curation, formal analysis, funding acquisition, methodology, project administration, resources, software, validation, supervision, and visualisation.
 
-Alejandro Olivares ([ORCID iD 0000-0001-6934-2437](https://orcid.org/0000-0001-6934-2437)): Conceptualisation, funding acquisition, investigation, methodology, project administration, resources, validation, and supervision.
+Alejandro Olivares ([ORCID iD 0000-0001-6934-2437](https://orcid.org/0000-0001-6934-2437)): Conceptualisation, funding acquisition, investigation, methodology, resources, validation, and supervision.
 
 Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948-6194)): Investigation.
 
@@ -172,6 +172,7 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 
 [March 14, 2022](CHANGELOG.md).
 
-[^1]: A number of cases experienced a change of name of the ministry during their time at the office. For example, the case `ID-261` experienced a change of name in October 2011. Considering that the observations in this set correspond to undersecretary-portfolio cases, we could have generated a new observation when that ministry changed its name. Because of the scarcity of these cases, we have not generated new observations, however, the ministries' names reflect this situation with a slash. On the other hand, the labels `SEGEGOB`, `SEGPRES`, and `SERNAM` correspond to the following ministries: *Secretaría General de Gobierno*, *Secretaría General de la Presidencia*, and *Servicio Nacional de la Mujer*.
-[^2]: The labels correspond to the following political parties: `EVO` (*Evolución Política*), `IC` (*Izquierda Cristiana*), `MAS` (*Movimiento Amplio Social*), `PCCh` (*Partido Comunista de Chile*), `PDC` (*Partido Demócrata Cristiano*), `PH` (*Partido Humanista*), `PPD` (*Partido por la Democracia*), `PR` (*Partido Radical*), `PRI` (*Partido Regionalista Independiente*), `PRSD` (*Partido Radical Socialdemócrata*), `PS` (*Partido Socialista de Chile*), `RN` (*Renovación Nacional*), and `UDI` (*Unión Demócrata Independiente*). Finally, `NP` is for non-partisan undersecretaries, which could be recoded as a dummy variable.
-[^3]: González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Ministers (1990-2014) (Version 3.2.3 -- Old Mode) [Data set]. DOI: [10.5281/zenodo.5744536](https://doi.org/10.5281/zenodo.5744536).
+[^1]: The latest release with changes in the data set is `v2.0.0 -- Sparkling Shape`.
+[^2]: A number of cases experienced a change of name of the ministry during their time at the office. For example, the case `ID-261` experienced a change of name in October 2011. Considering that the observations in this set correspond to undersecretary-portfolio cases, we could have generated a new observation when that ministry changed its name. Because of the scarcity of these cases, we have not generated new observations, however, the ministries' names reflect this situation with a slash. On the other hand, the labels `SEGEGOB`, `SEGPRES`, and `SERNAM` correspond to the following ministries: *Secretaría General de Gobierno*, *Secretaría General de la Presidencia*, and *Servicio Nacional de la Mujer*.
+[^3]: The labels correspond to the following political parties: `EVO` (*Evolución Política*), `IC` (*Izquierda Cristiana*), `MAS` (*Movimiento Amplio Social*), `PCCh` (*Partido Comunista de Chile*), `PDC` (*Partido Demócrata Cristiano*), `PH` (*Partido Humanista*), `PPD` (*Partido por la Democracia*), `PR` (*Partido Radical*), `PRI` (*Partido Regionalista Independiente*), `PRSD` (*Partido Radical Socialdemócrata*), `PS` (*Partido Socialista de Chile*), `RN` (*Renovación Nacional*), and `UDI` (*Unión Demócrata Independiente*). Finally, `NP` is for non-partisan undersecretaries, which could be recoded as a dummy variable.
+[^4]: González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Ministers (1990-2014) (Version 3.2.3 -- Old Mode) [Data set]. DOI: [10.5281/zenodo.5744536](https://doi.org/10.5281/zenodo.5744536).

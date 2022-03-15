@@ -8,8 +8,8 @@ authors:
   given-names: "Alejandro"
   orcid: "https://orcid.org/0000-0001-6934-2437"
 title: "Data Set on Chilean Undersecretaries (1990-2022)"
-version: "2.0.0 -- Sparkling Shape"
+version: "2.0.0 -- Jolly Bonus"
 doi: 10.5281/zenodo.5715384
-date-released: 2022-03-14
+date-released: 2022-03-15
 url: "https://github.com/bgonzalezbustamante/chilean-undersecretaries"
 type: data

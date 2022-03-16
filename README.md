@@ -108,7 +108,7 @@ The files will be overwritten if you run the R script contained in `eda_undersec
 
 ### Codebook
 
-The file `chl_undersecretaries.csv` in `data/tidy` subfolder is the data set on Chilean undersecretaries between 1990 and 2022. This set contains 424 observations.[^2] The codebook is also available in [`PDF`](docs/codebook_undersecretaries.pdf).
+The file `chl_undersecretaries.csv` in `data/tidy` subfolder is the data set on Chilean undersecretaries between 1990 and 2022. This set contains 425 observations.[^2] The codebook is also available in [`PDF`](docs/codebook_undersecretaries.pdf).
 
 - `id`. Unique ID for each undersecretary-portfolio observation.
 
@@ -175,9 +175,9 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 
 [March 16, 2022](CHANGELOG.md).
 
-[^1]: It is not necessary to run the cleaning code. This script was used for the revision between `v1.5.5 -- Lively Base` and v2.0.0 --- `Shy Mud`.
+[^1]: It is not necessary to run the cleaning code. This script was used for the revision between `v1.5.5 -- Lively Base` and `v2.0.0 --- Shy Mud`.
 [^2]: The latest release with changes in the data set is `v2.0.0 -- Shy Mud`. The file in `data/raw` subfolder corresponds to `v1.5.5 -- Lively Base` before the update at the end of the latest presidential term in March 2022, which generates `v2.0.0 -- Shy Mud`.
 [^3]: A number of cases experienced a change of name of the ministry during their time at the office. For example, the case `ID-261` experienced a change of name in October 2011. Considering that the observations in this set correspond to undersecretary-portfolio cases, we could have generated a new observation when that ministry changed its name. Because of the scarcity of these cases, we have not generated new observations, however, the ministries' names reflect this situation with a slash. On the other hand, the labels `SEGEGOB`, `SEGPRES`, and `SERNAM` correspond to the following ministries: *Secretaría General de Gobierno*, *Secretaría General de la Presidencia*, and *Servicio Nacional de la Mujer*.
-[^4]: In `v1.5.5 -- Lively Base`, the latest presidential term was not finished yet, therefore, there were a number of missing cases in this variable. In `v2.0.0 -- Shy Mud`, we have incorporated the exact exit date or administrative censoring if applicable. For instance, case `ID-XXX` left office about one month before the end of the term, thereupon, a subrogant was in charge of the office until then. This data set does not consider such appointments and is therefore not incorporated into the set.
+[^4]: In `v1.5.5 -- Lively Base`, the latest presidential term was not finished yet, therefore, there were a number of missing cases in this variable. In `v2.0.0 -- Shy Mud`, we have incorporated the exact exit date or administrative censoring if applicable. For instance, case `ID-414` left office about one month before the end of the term, thereupon, a subrogant was in charge of the office until then. This data set does not consider such appointments and is therefore not incorporated into the set.
 [^5]: The labels correspond to the following political parties: `EVO` (*Evolución Política*), `IC` (*Izquierda Cristiana*), `MAS` (*Movimiento Amplio Social*), `PCCh` (*Partido Comunista de Chile*), `PDC` (*Partido Demócrata Cristiano*), `PH` (*Partido Humanista*), `PPD` (*Partido por la Democracia*), `PR` (*Partido Radical*), `PRI` (*Partido Regionalista Independiente*), `PRSD` (*Partido Radical Socialdemócrata*), `PS` (*Partido Socialista de Chile*), `RN` (*Renovación Nacional*), and `UDI` (*Unión Demócrata Independiente*). Finally, `NP` is for non-partisan undersecretaries, which could be recoded as a dummy variable.
 [^6]: González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Ministers (1990-2014) (Version 3.2.3 -- Wispy Boat) [Data set]. DOI: [10.5281/zenodo.5744536](https://doi.org/10.5281/zenodo.5744536).

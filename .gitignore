@@ -37,3 +37,19 @@ vignettes/*.pdf
 
 # R Environment Variables
 .Renviron
+refs/BIB-Undersecretaries.bib.sav.tmp
+refs/BIB-Undersecretaries.bib.bak
+
+## Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.log
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb

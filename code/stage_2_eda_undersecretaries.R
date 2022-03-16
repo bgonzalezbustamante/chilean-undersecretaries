@@ -11,6 +11,7 @@
 ## Alejandro Olivares (Universidad Católica de Temuco, Chile)
 
 ## Data Set on Chilean Undersecretaries
+## https://github.com/bgonzalezbustamante/chilean-undersecretaries
 ## https://doi.org/10.5281/zenodo.5715384
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -18,6 +19,9 @@
 #### Packages and Data ####
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+## Clean Environment
+rm(list = ls())
 
 ## Packages
 library(DataExplorer)

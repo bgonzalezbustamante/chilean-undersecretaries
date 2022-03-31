@@ -106,7 +106,7 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2022)" will b
 - GitHub repository.
 - README in MD format on GitHub repository.
 - Badges in SVG on GitHub repository.
-- License CC-BY Attribution 4.0 International on GitHub repository.
+- License CC BY 4.0 on GitHub repository.
 - Changelog in MD format on GitHub repository.
 ### Deprecated
 - Data set in DTA format.

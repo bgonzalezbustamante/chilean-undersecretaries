@@ -1,7 +1,7 @@
 # chilean-undersecretaries
 **Data Set on Chilean Undersecretaries (1990-2022)**
 
-[![Version](https://img.shields.io/badge/version-v2.0.0-blue.svg)](CHANGELOG.md) [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428418754.svg)](https://zenodo.org/badge/latestdoi/428418754) [![License](https://img.shields.io/badge/license-CC--BY--4.0-black)](LICENSE.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/)
+[![Version](https://img.shields.io/badge/version-v2.1.1-blue.svg)](CHANGELOG.md) [![Project Status: Inactive – The project has reached a stable, usable state but is no longer being actively developed; support/maintenance will be provided as time allows.](https://www.repostatus.org/badges/latest/inactive.svg)](STATUS.md) [![GitHub issues](https://img.shields.io/github/issues/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues/) [![GitHub issues-closed](https://img.shields.io/github/issues-closed/bgonzalezbustamante/chilean-undersecretaries.svg)](https://github.com/bgonzalezbustamante/chilean-undersecretaries/issues?q=is%3Aissue+is%3Aclosed) [![DOI](https://zenodo.org/badge/428418754.svg)](https://zenodo.org/badge/latestdoi/428418754) [![License](https://img.shields.io/badge/license-CC%20BY%204.0-black)](LICENSE.md) [![License](https://img.shields.io/badge/license-MIT-black)](MIT.md) [![License](https://img.shields.io/badge/license-LPPL%20v1.3c-black)](LPPL13.md) [![R](https://img.shields.io/badge/made%20with-R%20v4.1.0-1f425f.svg)](https://cran.r-project.org/) [![Latex](https://img.shields.io/badge/made%20with-LaTeX-1f425f.svg)](https://www.latex-project.org/)
 
 ## Overview
 
@@ -27,6 +27,8 @@ chilean-undersecretaries
 |-- CITATION.cff
 |-- CODE_OF_CONDUCT.md
 |-- LICENSE.md
+|-- LPPL13.md
+|-- MIT.md
 |-- README.md
 |-- STATUS.md
 |-- code
@@ -53,7 +55,7 @@ chilean-undersecretaries
     |-- BIB-Undersecretaries.bib
 ```
 
-9 directories and 21 files.
+9 directories and 23 files.
 
 In addition, this `README` file in Markdown `MD` format provides specific information to ensure the reusability of the data.
 
@@ -138,7 +140,9 @@ A number of other variables can be calculated with aggregate data from different
 
 ## License
 
-This data set is released under a [Creative Commons Attribution 4.0 International license (CC BY 4.0)](LICENSE.md). This open-access license allows the data to be shared, reused, adapted as long as appropriate acknowledgement is given.
+The content of this project itself is licensed under a [Creative Commons Attribution 4.0 International license (CC BY 4.0)](CCBY40.md), and the underlying code used to format and display that content is licensed under an [MIT license](LICENSE.md). In particular, the codebook has been compiled with XeLaTeX using a code under an [LPPL v1.3c license](LPPL13.md).
+
+The above implies that both data set and underlying code may be shared, reused, adapted as long as appropriate acknowledgement is given.
 
 ## Contribute
 
@@ -150,7 +154,7 @@ Please read our [code of conduct](CODE_OF_CONDUCT.md) first. Minor contributions
 
 ## Citation
 
-González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Undersecretaries (1990-2022) (Version 2.0.0 -- Shy Mud) [Data set]. DOI: [10.5281/zenodo.5715384](https://doi.org/10.5281/zenodo.5715384)
+González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Undersecretaries (1990-2022) (Version 2.1.1 -- Bold Tooth) [Data set]. DOI: [10.5281/zenodo.5715384](https://doi.org/10.5281/zenodo.5715384)
 
 ## Authors
 
@@ -173,11 +177,11 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 
 ### Latest Revision
 
-[March 16, 2022](CHANGELOG.md).
+[April 4, 2022](CHANGELOG.md).
 
 [^1]: It is not necessary to run the cleaning code. This script was used for the revision between `v1.5.5 -- Lively Base` and `v2.0.0 --- Shy Mud`.
 [^2]: The latest release that incorporated changes in the data set is `v2.0.0 -- Shy Mud`. The file in `data/raw` subfolder corresponds to `v1.5.5 -- Lively Base` before the update at the end of the latest presidential term in March 2022, which generates `v2.0.0 -- Shy Mud`.
 [^3]: A number of cases experienced a change of name of the ministry during their time at the office. For example, the case `ID-261` experienced a change of name in October 2011. Considering that the observations in this set correspond to undersecretary-portfolio cases, we could have generated a new observation when that ministry changed its name. Because of the scarcity of these cases, we have not generated new observations, however, the ministries' names reflect this situation with a slash. On the other hand, the labels `SEGEGOB`, `SEGPRES`, and `SERNAM` correspond to the following ministries: *Secretaría General de Gobierno*, *Secretaría General de la Presidencia*, and *Servicio Nacional de la Mujer*.
 [^4]: In `v1.5.5 -- Lively Base`, the latest presidential term was not finished yet, therefore, there were a number of missing cases in this variable. In `v2.0.0 -- Shy Mud`, we have incorporated the exact exit date or administrative censoring if applicable. For instance, case `ID-414` left office about one month before the end of the term, thereupon, a subrogant was in charge of the office until then. This data set does not consider such appointments and is therefore not incorporated into the set.
 [^5]: The labels correspond to the following political parties: `EVO` (*Evolución Política*), `IC` (*Izquierda Cristiana*), `MAS` (*Movimiento Amplio Social*), `PCCh` (*Partido Comunista de Chile*), `PDC` (*Partido Demócrata Cristiano*), `PH` (*Partido Humanista*), `PPD` (*Partido por la Democracia*), `PR` (*Partido Radical*), `PRI` (*Partido Regionalista Independiente*), `PRSD` (*Partido Radical Socialdemócrata*), `PS` (*Partido Socialista de Chile*), `RN` (*Renovación Nacional*), and `UDI` (*Unión Demócrata Independiente*). Finally, `NP` is for non-partisan undersecretaries, which could be recoded as a dummy variable.
-[^6]: González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Ministers (1990-2014) (Version 3.2.3 -- Wispy Boat) [Data set]. DOI: [10.5281/zenodo.5744536](https://doi.org/10.5281/zenodo.5744536).
+[^6]: González-Bustamante, B., & Olivares, A. (2022). Data Set on Chilean Ministers (1990-2014) (Version 3.3.4 -- Gentle Scene) [Data set]. DOI: [10.5281/zenodo.5744536](https://doi.org/10.5281/zenodo.5744536).

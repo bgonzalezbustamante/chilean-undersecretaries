@@ -82,7 +82,7 @@ We recommend that users import the data directly using the code below or, if the
 github_1 <- "https://raw.githubusercontent.com/"
 github_2 <- "bgonzalezbustamante/chilean-undersecretaries/main/data/tidy/"
 
-## Chilean Ministers Data
+## Chilean Undersecretaries Data
 chilean_ministers <- read.csv(paste(github_1, github_2, "chl_undersecretaries.csv", sep = ""),
                               header = T, sep = ",", encoding = "UTF-8")
 ```
@@ -95,7 +95,7 @@ import pandas as pd
 github_1 = "https://raw.githubusercontent.com/"
 github_2 = "bgonzalezbustamante/chilean-undersecretaries/main/data/tidy/"
 
-## Chilean Ministers Data
+## Chilean Undersecretaries Data
 url = github_1 + github_2 + "chl_undersecretaries.csv"
 df = pd.read_csv(url, index_col=0)
 ```

@@ -20,18 +20,18 @@
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-## Package
-library(tidyverse)
-
 ## Clean Environment
 rm(list = ls())
+
+## Package
+library(tidyverse)
 
 ## Data
 data_CHL <- read.csv("data/raw/chl_undersecretaries.csv", encoding = "UTF-8")
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-#### Revision ####
+#### First Revision ####
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
@@ -69,6 +69,22 @@ data_CHL$end_undersec[which(is.na(data_CHL$end_undersec))] <- format(as.Date("20
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #### v2.0.0 -- Shy Mud ####
+
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+write.csv(data_CHL, "data/tidy/chl_undersecretaries.csv", fileEncoding = "UTF-8", row.names =  FALSE)
+
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#### Second Revision ####
+
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+data_CHL$name[which(data_CHL$name == "Joan Mac Donald Maier")] <- "Elizabeth Joan Mac Donald Maier"
+
+## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#### v2.1.2 -- Bold Tooth ####
 
 ## +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 

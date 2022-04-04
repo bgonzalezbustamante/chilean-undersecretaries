@@ -3,6 +3,8 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2022)" will b
 
 ## [Unreleased]
 
+## [Released]
+
 ## [2.1.2] - 2022-04-04
 ### Changed
 - Minor corrections.
@@ -17,8 +19,6 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2022)" will b
 - LPPL v1.3c license on GitHub repository.
 ### Changed
 - Minor corrections.
-
-## [Released]
 
 ## [2.0.0] - 2022-03-16
 ### Added

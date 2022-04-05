@@ -177,7 +177,7 @@ Carla Cisternas ([ORCID iD 0000-0001-7948-6194](https://orcid.org/0000-0001-7948
 
 ### Latest Revision
 
-[April 4, 2022](CHANGELOG.md).
+[April 5, 2022](CHANGELOG.md).
 
 [^1]: It is not necessary to run the cleaning code. This script was used for the revision between `v1.5.5 -- Lively Base`, `v2.0.0 -- Shy Mud`, and `v2.1.2 -- Bold Tooth`.
 [^2]: The latest release that incorporated changes in the data set is `v2.1.2 -- Bold Tooth`. The file in `data/raw` subfolder corresponds to `v1.5.5 -- Lively Base` before the update at the end of the latest presidential term in March 2022, which generates `v2.0.0 -- Shy Mud`. The difference between `v2.0.0 -- Shy Mud` and `v2.1.2 -- Bold Tooth` is just a slight correction in the `name` of the case `ID-8`.

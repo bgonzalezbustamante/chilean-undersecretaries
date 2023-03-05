@@ -5,6 +5,11 @@ All notable changes to "Data Set on Chilean Undersecretaries (1990-2022)" will b
 
 ## [Released]
 
+## [2.1.4] - 2023-03-05
+### Changed
+- Badges in SVG on GitHub repository.
+- Minor corrections.
+
 ## [2.1.3] - 2022-04-05
 ### Changed
 - Minor corrections.
